@@ -1,21 +1,44 @@
 # Symbnb
 
-Application de type airbnb pouvant servir:
- - aux voyageurs, afin de trouver un bien pour se loger durant leur séjour.
- - aux propriétaires de biens, afin de louer leur appartement ou maison à des voyageurs.
+SymBNB can be used:
+ - to travelers, in order to find a good to find accommodation during their stay.
+ - property owners, in order to rent their apartment or house to travelers.
  
-Languages de programation utilisé:
+Programming languages ​​used:
   - php
   - javascript
   - twig
   
-Framework utilisé: Symfony 5.1.0
-Base de donnée: MySQL
+Framework used: Symfony 5.1.0
+Database: MySQL
 
 INSTALLATION:
-- Clonez le projet
-- Installez les dépendances avec composer install
-- Configurez votre base de donnée dans le fichier .env
-- Lancer les migrations en tapant : php bin/console doctrine:migrations:migrate
-- Lancez les fixtures en tapant : php bin/console doctrine:fixtures:load
-- Lancez le serveur en tapant : php bin/console server:run
+- Clone the project
+```sh
+$ git clone https://github.com/Anteste/symbnb.git
+```
+
+- Install dependencies
+```sh
+$ composer install
+```
+
+- Configure your database in the .env file
+```sh
+DATABASE_URL=mysql://symfony:symfony@127.0.0.1:3308/symfony:symfony
+```
+
+- Start migrations
+```sh
+$ php bin/console doctrine:migrations:migrate
+```
+
+- Launch the fixtures
+```sh
+$ php bin/console doctrine:fixtures:load
+```
+
+- Start the server 
+```sh
+$ symfony serve
+```
