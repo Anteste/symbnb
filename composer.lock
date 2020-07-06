@@ -5534,16 +5534,16 @@
         },
         {
             "name": "symfony/security-bundle",
-            "version": "v5.1.0",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-bundle.git",
-                "reference": "410ce6220f458a3ac1347a3bb98383629223b8ce"
+                "reference": "d2013a73a0163f4fad6d24fbb81affb6e943ec2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-bundle/zipball/410ce6220f458a3ac1347a3bb98383629223b8ce",
-                "reference": "410ce6220f458a3ac1347a3bb98383629223b8ce",
+                "url": "https://api.github.com/repos/symfony/security-bundle/zipball/d2013a73a0163f4fad6d24fbb81affb6e943ec2e",
+                "reference": "d2013a73a0163f4fad6d24fbb81affb6e943ec2e",
                 "shasum": ""
             },
             "require": {
@@ -5557,7 +5557,7 @@
                 "symfony/security-core": "^5.1",
                 "symfony/security-csrf": "^4.4|^5.0",
                 "symfony/security-guard": "^5.1",
-                "symfony/security-http": "^5.1"
+                "symfony/security-http": "^5.1,>=5.1.2"
             },
             "conflict": {
                 "symfony/browser-kit": "<4.4",
@@ -5629,11 +5629,11 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-27T19:00:01+00:00"
+            "time": "2020-06-15T08:29:02+00:00"
         },
         {
             "name": "symfony/security-core",
-            "version": "v5.1.0",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-core.git",
@@ -5722,7 +5722,7 @@
         },
         {
             "name": "symfony/security-csrf",
-            "version": "v5.1.0",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-csrf.git",
@@ -5795,7 +5795,7 @@
         },
         {
             "name": "symfony/security-guard",
-            "version": "v5.1.0",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-guard.git",
@@ -5864,16 +5864,16 @@
         },
         {
             "name": "symfony/security-http",
-            "version": "v5.1.0",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-http.git",
-                "reference": "6a785d9a0deeb401d7ae540fd0492aca4e6b894e"
+                "reference": "671aeab2db9162288e27c8ef525c63d51c810cb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-http/zipball/6a785d9a0deeb401d7ae540fd0492aca4e6b894e",
-                "reference": "6a785d9a0deeb401d7ae540fd0492aca4e6b894e",
+                "url": "https://api.github.com/repos/symfony/security-http/zipball/671aeab2db9162288e27c8ef525c63d51c810cb3",
+                "reference": "671aeab2db9162288e27c8ef525c63d51c810cb3",
                 "shasum": ""
             },
             "require": {
@@ -5942,7 +5942,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-30T20:35:19+00:00"
+            "time": "2020-06-13T15:06:42+00:00"
         },
         {
             "name": "symfony/serializer",
