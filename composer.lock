@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd620a6f7c630beb04d4dac4a49ef4cf",
+    "content-hash": "dfd54c87c33f20cf390d4ab7cb40cd85",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -6978,7 +6978,7 @@
         },
         {
             "name": "symfony/web-link",
-            "version": "v5.1.0",
+            "version": "v5.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/web-link.git",
