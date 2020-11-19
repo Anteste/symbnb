@@ -12,3 +12,19 @@ div.my-title h1, div.my-title p {
     color: white;
     text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
 }
+
+.avatar {
+    max-width: 128px;
+    max-height: 128px;
+    border-radius: 50%;
+}
+
+.avatar-medium {
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.avatar-mini {
+    max-width: 24px;
+    max-height: 24px;
+}
