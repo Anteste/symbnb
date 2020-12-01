@@ -9,7 +9,7 @@ Programming languages ​​used:
   - javascript
   - twig
   
-Framework used: Symfony 5.1.0
+Framework used: Symfony 5.1
 Database: MySQL
 
 INSTALLATION:
@@ -20,12 +20,13 @@ $ git clone https://github.com/Anteste/symbnb.git
 
 - Install dependencies
 ```sh
-$ composer install
+$ composer update
+$ composer install 
 ```
 
 - Configure your database in the .env file
 ```sh
-DATABASE_URL=mysql://symfony:symfony@127.0.0.1:3308/symfony:symfony
+DATABASE_URL=mysql://db_user:db_password@127.0.0.1:3306/db_name?serverVersion=5.7.31
 ```
 
 - Start migrations
